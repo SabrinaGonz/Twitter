@@ -96,6 +96,11 @@
                                         <constraint firstItem="0n8-Vw-ksw" firstAttribute="top" secondItem="hNP-RB-v48" secondAttribute="topMargin" id="z9z-wl-CXZ"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="profileImageView" destination="TwH-jY-8jH" id="lki-b2-o8j"/>
+                                    <outlet property="tweetContent" destination="WGn-Da-wbz" id="JOz-pa-u5b"/>
+                                    <outlet property="userNameLabel" destination="0n8-Vw-ksw" id="D4Z-yP-RfX"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
